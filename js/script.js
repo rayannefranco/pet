@@ -17,10 +17,7 @@ slides.addEventListener('keydown', (e) => {
 function safeUrl(value) { try { const url = new URL(value, window.location.href); return ['https:', 'http:'].includes(url.protocol) ? url.href : null; } catch { return null; } }
 const checkout = config.checkoutUrl && safeUrl(config.checkoutUrl);
 if (checkout) { document.querySelector('.checkout').href = checkout; document.querySelector('#checkout-pendente').hidden = true; }
-if (/^\d{10,15}$/.test(config.whatsappNumber || '')) {
-  document.querySelector('.contact').href = 'https://wa.me/' + config.whatsappNumber + '?text=' + encodeURIComponent('Olá! Gostaria de saber mais sobre os mapas da Lei 14.711/2023.');
-  document.querySelector('#whatsapp-pendente').hidden = true;
-}
+
 for (const screen of document.querySelectorAll('[data-video]')) {
   const source = config.videos?.[screen.dataset.video];
   const url = source && safeUrl(source);

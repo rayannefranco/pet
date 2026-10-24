@@ -18,3 +18,9 @@ Salvar os vídeos em `assets/videos/` e configurar seus caminhos em `js/config.j
 
 ## Visualização
 Servir a raiz como site estático. Não exige build nem dependências. O repositório não configura automaticamente uma hospedagem.
+
+## Ajustes pelos prints de celular
+Amostras em moldura de tablet, três espaços para depoimentos, caixas douradas, foto com cantos arredondados, selo de oferta, logo repetido, preço verde e ícone de WhatsApp dourado. Preço anterior, parcelamento e economia ficam sinalizados até confirmação. Nenhuma imagem ou depoimento da autora da referência foi incorporado.
+
+## Revisão solicitada
+Removidas integralmente as seções de apresentação da autora e contato pelo WhatsApp, inclusive configuração e código de contato. As referências a esses espaços na lista histórica de pendências acima não se aplicam mais.
