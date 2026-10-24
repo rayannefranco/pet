@@ -1,15 +1,2 @@
-# Imagens do projeto
-
-Coloque nesta pasta:
-- mockups do mini app;
-- imagens reais dos PDFs;
-- fotos de pets autorizadas;
-- screenshots do produto;
-- ícones próprios, caso queira substituir os emojis atuais.
-
-Sugestão de nomes:
-- hero-mockup.webp
-- rg-pet.webp
-- certidao-pet.webp
-- carteirinha-pet.webp
-- pet-perdido.webp
+# Imagens pendentes
+Inserir aqui logo, seis amostras dos mapas, depoimentos autorizados, foto da autora e mockup. Substituir o conteúdo do respectivo elemento `data-slot` em index.html por uma imagem com texto alternativo. Manter as proporções e a ordem das seções.
